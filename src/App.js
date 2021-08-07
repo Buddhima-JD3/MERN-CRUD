@@ -3,8 +3,8 @@
   import CreatePost from './components/CreatePost';
   import EditPost from './components/EditPost';
   import PostDetails from './components/PostDetails';
-  import Home from './Components/Home';
-  import NavBar from './Components/NavBar';
+  import Home from './components/Home';
+  import NavBar from './components/NavBar';
   
   
   export default class App extends Component {
@@ -13,10 +13,10 @@
         <BrowserRouter>
         <div className='container'>
           <NavBar/>
-          <Route path="/" exact Component={Home}></Route>
-          <Route path="/add" Component={CreatePost}></Route>
-          <Route path="/edit/:id" Component={EditPost}></Route>
-          <Route path="post/:id" Component={PostDetails}></Route>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/add" component={CreatePost}></Route>
+          <Route path="/edit/:id" component={EditPost}></Route>
+          <Route path="/post/:id" component={PostDetails}></Route>
 
           
         </div>

@@ -37,8 +37,11 @@
       "last 1 safari version"
     ]
   },
+  "proxy" : "http://localhost:8000",
+
   "devDependencies": {
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.8"
   }
+  
 }

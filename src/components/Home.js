@@ -13,7 +13,7 @@ componentDidMount(){
 }
 
   retrievePosts(){
-    axios.get("http://localhost:8000/posts").then(res =>{
+    axios.get("/posts").then(res =>{
       if(res.data.success){
         this.setState({
           posts:res.data.existingPosts
@@ -26,7 +26,7 @@ componentDidMount(){
     return (
       <div className = "container">
         <p>All Posts</p>
-        <table class ="table">
+        <table className ="table">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -39,13 +39,15 @@ componentDidMount(){
 
           <tbody>
               {this.state.posts.map((posts,index) =>(
-                <tr>
+                <tr key={index}>
                   <th scope = "row">{index +1}</th>
                   <td>
-                      <a href={'/post/${posts._id}'} style={{textDecoration:none}}>
-                      {posts.topic}
-                      </a>
-                             
+                  <a
+                    href={`/post/${posts._id}`}
+                    style={{ textDecoration: "none" }}
+                  >
+                    {posts.topic}
+                  </a>                            
                   </td>
                   <td>{posts.description}</td>
                   <td>{posts.PostCategory}</td>
@@ -72,6 +74,7 @@ componentDidMount(){
 
 
         </table>
+        <button className="btn btn-success"><a href="/add" style={{textDecoration:'none',color:'white'}}>Create New Post</a></button>
       </div>
     )
   }
