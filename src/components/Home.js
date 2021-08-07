@@ -30,20 +30,21 @@ export default class Home extends Component {
     });
   };
 
-  filterData(posts,searchKey){
-    const result = posts.filter((post) =>
-    post.topic.toLowerCase().includes(searchKey)||
-    post.description.toLowerCase().includes(searchKey)||
-    post.postCategory.toLowerCase().includes(searchKey)
-    )
-    this.setState({posts:result})
+  filterData(posts, searchKey) {
+    const result = posts.filter(
+      (post) =>
+        post.topic.toLowerCase().includes(searchKey) ||
+        post.description.toLowerCase().includes(searchKey) ||
+        post.postCategory.toLowerCase().includes(searchKey)
+    );
+    this.setState({ posts: result });
   }
 
   handleSearchArea = (e) => {
     const searchKey = e.currentTarget.value;
     axios.get("/posts").then((res) => {
       if (res.data.success) {
-        this.filterData(res.data.existingPosts, searchKey)
+        this.filterData(res.data.existingPosts, searchKey);
       }
     });
   };
