@@ -1,23 +1,20 @@
-# MERN Stack CRUD Application
+# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# A Simple MERN Stack CRUD Application
 
-### Express Server & MongoDB Configuration with REST API Creation & Testing with Postman
-
-_MERN Youtube Tutorial - By "**TechWithGeorge**"_
-
-![mern-image](https://user-images.githubusercontent.com/79325373/127886537-ab30e666-8cf1-4a94-9f6a-4fccd9b5db74.png)
-
-In this MERN tutorial you will learn from Sinhala medium how to ,
-
-* Project Folder Creation.
-* Express Server Configuration.
-* MongoDb Configuration.
-* REST API Creation (GET,POST,PUT,DELETE).
-* Testing the APIs using Postman.
+![](https://img.shields.io/badge/Monogo_DB-Express.js-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a) 
+![](https://img.shields.io/badge/React.js-Node.js-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 
 
+### Express Server & MongoDB Config with POSTMAN Testing & REST API Creation
 
+_MERN Youtube Tutorial - By "**TechWithGeorge**" in Sinhala_
 
-Try Yourself  :innocent:   :point_down:
+![FORK](https://img.shields.io/badge/FORK-NOW-blue.svg)
+
+**or**
+
+Check it out youtself  :wink:  -
 ```
 https://www.youtube.com/watch?v=4srOfbE-sDg&list=PLvfC6i-hEZBnqqF7giszuYI0iqenU5NY0&index=1
+
 ```
