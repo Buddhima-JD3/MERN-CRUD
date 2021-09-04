@@ -13,7 +13,7 @@ _MERN Youtube Tutorial - By "**TechWithGeorge**" in Sinhala_
 
 **or**
 
-  :wink:  -
+**Check it out**  :wink:  -
 
 https://www.youtube.com/watch?v=4srOfbE-sDg&list=PLvfC6i-hEZBnqqF7giszuYI0iqenU5NY0&index=2
 
